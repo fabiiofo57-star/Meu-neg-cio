@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Isometric Box Top Face -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,2 L21,6.5 L12,11 L3,6.5 Z" />
+    <!-- Left Face -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M3,6.5 L12,11 L12,21.5 L3,17 Z" />
+    <!-- Right Face -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M12,11 L21,6.5 L21,17 L12,21.5 Z" />
+    <!-- Tape / Ribbon Accent -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M10,2.9 L14,4.9 L14,7.1 L10,5.1 Z" />
+</vector>

@@ -1,0 +1,31 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // =========================================================================
+    // REGRAS DE SEGURANÇA E ISOLAMENTO MULTI-TENANT POR UID
+    // =========================================================================
+    // REGRA PRINCIPAL:
+    // Um usuário autenticado somente pode ler, criar, alterar ou excluir
+    // os próprios dados onde request.auth.uid == userId.
+    //
+    // Usuário A NÃO pode acessar dados do Usuário B.
+    // Usuário não autenticado NÃO pode acessar dados privados.
+    // =========================================================================
+    
+    match /users/{userId} {
+      // O usuário só pode ler e escrever seu próprio documento de usuário
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      // Subcoleções do usuário: profile, business, products, customers, sales, expenses, stockMovements, payments, settings
+      match /{allSubcollections=**} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+
+    // Nenhuma outra rota é permitida publicamente
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

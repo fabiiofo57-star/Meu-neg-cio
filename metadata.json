@@ -1,0 +1,6 @@
+{
+  "name": "Meu Negócio",
+  "description": "Sistema de gestão simples, bonito e profissional para pequenos negócios e autônomos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

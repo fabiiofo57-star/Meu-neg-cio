@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Store Base Shadow / Grounding -->
+    <path
+        android:fillColor="#15000000"
+        android:pathData="M24,84 C24,81 84,81 84,84 C84,87 24,87 24,84 Z" />
+
+    <!-- Store Building Body -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M30,48 L78,48 L78,79 C78,81.2 76.2,83 74,83 L34,83 C31.8,83 30,81.2 30,79 Z" />
+
+    <!-- Glass Window Left -->
+    <path
+        android:fillColor="#E0F2FE"
+        android:pathData="M35,55 L50,55 L50,75 L35,75 Z" />
+
+    <!-- Glass Window Glare Reflection -->
+    <path
+        android:fillColor="#BAE6FD"
+        android:pathData="M36,56 L44,56 L39,74 L36,74 Z" />
+
+    <!-- Store Door Right -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M56,57 L73,57 L73,83 L56,83 Z" />
+
+    <!-- Door Handle -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M59,70 A1.5,1.5 0 1 0 59,73 A1.5,1.5 0 1 0 59,70 Z" />
+
+    <!-- Awning / Canopy Main Arc -->
+    <path
+        android:fillColor="#059669"
+        android:pathData="M26,38 L82,38 L78,48 C76,51 72,51 70,48 C68,51 64,51 62,48 C60,51 56,51 54,48 C52,51 48,51 46,48 C44,51 40,51 38,48 C36,51 32,51 30,48 Z" />
+
+    <!-- Awning Stripes Alternating -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M34,38 L42,38 L40,48 C39,50 37,50 36,48 Z" />
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M50,38 L58,38 L56,48 C55,50 53,50 52,48 Z" />
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M66,38 L74,38 L72,48 C71,50 69,50 68,48 Z" />
+
+    <!-- Golden Coin on Left -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M26,62 A6,6 0 1 0 26,74 A6,6 0 1 0 26,62 Z" />
+    <path
+        android:fillColor="#FCD34D"
+        android:pathData="M26,64 A4,4 0 1 0 26,72 A4,4 0 1 0 26,64 Z" />
+
+    <!-- Trending Growth Badge / Arrow Circle Background -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M70,25 A11,11 0 1 0 70,47 A11,11 0 1 0 70,25 Z" />
+
+    <!-- Upward Trend Arrow in Badge -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,39 L65,34 L70,34 L73.5,30.5 L70,27 L78,27 L78,35 L74.5,31.5 L69.5,36.5 L66.5,36.5 Z" />
+
+    <!-- Small Sparkle Star Top Left -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M36,25 L37.2,28.8 L41,30 L37.2,31.2 L36,35 L34.8,31.2 L31,30 L34.8,28.8 Z" />
+</vector>

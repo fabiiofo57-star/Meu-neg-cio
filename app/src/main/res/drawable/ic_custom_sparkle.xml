@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Big 4-point Star -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,2 L14.2,9.8 L22,12 L14.2,14.2 L12,22 L9.8,14.2 L2,12 L9.8,9.8 Z" />
+    <!-- Secondary Small Star -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M19,3 L19.8,5.2 L22,6 L19.8,6.8 L19,9 L18.2,6.8 L16,6 L18.2,5.2 Z" />
+</vector>

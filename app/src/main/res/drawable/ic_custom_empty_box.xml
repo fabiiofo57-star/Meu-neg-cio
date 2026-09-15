@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Soft Base Shadow -->
+    <path
+        android:fillColor="#15000000"
+        android:pathData="M25,95 C25,88 95,88 95,95 C95,102 25,102 25,95 Z" />
+
+    <!-- Isometric Open Box Back Interior -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M60,45 L88,60 L60,75 L32,60 Z" />
+
+    <!-- Open Flaps -->
+    <!-- Left Flap -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M32,60 L14,52 L26,42 L46,52 Z" />
+    <!-- Right Flap -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M88,60 L106,52 L94,42 L74,52 Z" />
+
+    <!-- Front Left Face -->
+    <path
+        android:fillColor="#64748B"
+        android:pathData="M32,60 L60,75 L60,96 L32,81 Z" />
+
+    <!-- Front Right Face -->
+    <path
+        android:fillColor="#475569"
+        android:pathData="M60,75 L88,60 L88,81 L60,96 Z" />
+
+    <!-- Floating Sparkles & Confetti Above Box -->
+    <!-- Sparkle 1 (Gold) -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M60,20 L62,26 L68,28 L62,30 L60,36 L58,30 L52,28 L58,26 Z" />
+
+    <!-- Sparkle 2 (Emerald) -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M38,32 L39.2,35.5 L43,36.5 L39.2,37.5 L38,41 L36.8,37.5 L33,36.5 L36.8,35.5 Z" />
+
+    <!-- Sparkle 3 (Sky Blue) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M82,30 L83,33 L86,34 L83,35 L82,38 L81,35 L78,34 L81,33 Z" />
+
+    <!-- Tiny Floating Circle Dots -->
+    <path
+        android:fillColor="#A78BFA"
+        android:pathData="M48,22 A2,2 0 1 0 48,26 A2,2 0 1 0 48,22 Z" />
+    <path
+        android:fillColor="#F472B6"
+        android:pathData="M73,22 A2,2 0 1 0 73,26 A2,2 0 1 0 73,22 Z" />
+</vector>
